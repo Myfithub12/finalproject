@@ -6,7 +6,7 @@
 
 body {
   background-color: #fff;
-  color: hcl(000, 111, 222);
+  color: #123;
   min-height: 100vh;
   display: grid;
   place-items: center;
