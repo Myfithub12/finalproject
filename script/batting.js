@@ -52,3 +52,32 @@ function calculateBattingAverage() {
     // Display batting average
     document.getElementById('batting-average').textContent = battingAverage.toFixed(3); // Display with three decimal places
 }
+
+// Extract data from table
+let table = document.getElementById("myTable");
+let rows = table.getElementsByTagName("tr");
+let csvData = [];
+
+for (let i = 0; i < rows.length; i++) {
+    let cells = rows[i].getElementsByTagName("td");
+    let row = [];
+    for (let j = 0; j < cells.length; j++) {
+        row.push(cells[j].innerText);
+    }
+    if (row.length > 0) {
+        csvData.push(row);
+    }
+}
+
+// Add headers
+csvData.unshift(["Header1", "Header2", "Header3"]);
+
+// Convert to CSV and download
+let csvContent = "data:text/csv;charset=utf-8," 
+    + csvData.map(e => e.join(",")).join("\n");
+let encodedUri = encodeURI(csvContent);
+let link = document.createElement("a");
+link.setAttribute("href", encodedUri);
+link.setAttribute("download", "batting.csv");
+document.body.appendChild(link);
+link.click();

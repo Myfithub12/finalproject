@@ -1,8 +1,6 @@
 # finalproject
 
-With this project I am trying to create a website for those who keep score at baseball games like fans and coaches. I have created a login page (currently inactive) and am currently working on a csv page to store all information from game-to-game.
-
-
-
 To the person checking this project:
-Currently, as of 7-30-2024, I have restarted my project. The week before I deleted, moved, or copied code one or more areas that made the original project not work. I have saved some code to help me restart the project but am not sure if I will be able to finish it by the deadline. If this is the case, please let me know through a different readme page to let me know what I can do to improve this project.
+With this project I am trying to create a website for those who keep score at baseball games like fans and coaches. I have created a login page (currently inactive) and am currently working on a csv page to store all information from game-to-game, an API, and other items.But due to a misstep in my original project before 7-30-2024, I have restarted my project. The week before I deleted, moved, or copied code one or more areas that made the original project not work. I have saved some code to help me restart the project but am not sure if I will be able to finish it by the deadline. If this is the case, please let me know through a this readme page or the active e-mail link on the main what I can do to improve this project.
+
+To view what I have done so far use the "Go Live" button in the bottom right hand corner of Visual Studio. The mentors for the Tuesday night class were great but with all that needed to be done I chose not to keep them from helping the other students in the on-line class. Although I did not pass, I have learned a lot. I plan on trying to get this site working so that it can be a resource later down the road.
